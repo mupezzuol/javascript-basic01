@@ -1,0 +1,24 @@
+############## document
+
+* Variavel 'document' é todo o código/conteúdo da minha página;
+* document.querySelector - > Ajuda achar pequenos fragmentos em nosso 'document', seja um h1, etc...
+Ex: document.querySelector("h1");
+* textContent -> Pegar o valor que está dentro das TAGS buscadas pelo querySelector
+* Mudar valor da TAG é só receber o valor direto -> titulo.textContent = "Título Alterado";
+* querySelectorAll -> Trás todas as TAG com esse seletor e colocar em um ARRAY
+
+
+
+############## EVENT
+
+* addEventListener -> adiciono no elemento que eu quero escutar, eu passo primeiro parametro o tipo de evento e depois a função que será chamada
+
+
+
+
+############## AJAX
+
+-> Requisição Assincrona (o sistema não teve que parar par executar o processo de trazer os pacientes da API)
+-> Consumimos uma API e trouxemos para nossa tabela
+
+
